@@ -63,10 +63,11 @@ The sections of functions includes:
 
 `get_recti_box` find the rectilinear bounding box for the model
 
-#### Model Healin
+#### Model Healing
 
 `check_NM_errors` a function to find non-manifold errors and vertices
 
 `check_and_correct_NM` which attempts to iteratively remove NMEs, if possible
+
 `clean_stls` a function to apply several STL healing methods to repair NMEs, NMVs, inverted normals, remove duplicates and degenerate triangles, and close holes
 
